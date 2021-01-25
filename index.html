@@ -2,64 +2,87 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CyberCycloid</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-  <link href="styles.css" rel="stylesheet" type="text/css">
-</head>
-<body>
-  <div class="bar1">
-    <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #000">
-      <div class="container-fluid">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <div class=" navbar-collapse justify-content-center" id="navbarResponsive">
-          <ul class="nav justify-content-center">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+
+  <!-- Animate CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+  <!-- StyleSheet -->
+  <link rel="stylesheet" href="styles.css" />
+  <title>Ecommerce Shop</title>
+</head>
+
+<body>
+  <div id="pre-loader">
+    <div class="loader"></div>
+  </div>
+
+  <!-- Header -->
+  <header id="home" class="header">
+    <nav class="navigation">
+      <div class="nav-center container">
+        <a href="#home" class="logo">
+          <h1>EComme<span>r</span>ce</h1>
+        </a>
+
+        <div class="nav-menu">
+          <div class="nav-top">
+            <div class="logo">
+              <h1>EComme<span>r</span>ce</h1>
+            </div>
+            <div class="close">
+              <i class="fas fa-times"></i>
+            </div>
+          </div>
+
+          <ul class="nav-list">
             <li class="nav-item">
-              <h1>CyberCycloid</h1>
+              <a href="#home" class="nav-link scroll-link">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#Collection" class="nav-link scroll-link">Collection</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#new" class="nav-link scroll-link">New</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#recent" class="nav-link scroll-link">Recent</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#blog" class="nav-link scroll-link">Blog</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#Artisan" class="nav-link scroll-link">Artisan Group</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Artisan" class="nav-link scroll-link"></a>
             </li>
           </ul>
         </div>
+
+        <div class="nav-icons">
+          <span><i class="fas fa-user"></i></span>
+          <span><i class="fas fa-search"></i></span>
+          <span><i class="fas fa-shopping-cart"></i></span>
+        </div>
+
+        <div class="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
       </div>
     </nav>
-  </div>
-  <nav id ="navbar_top" class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav mx-auto">
-          <li class="nav-item btn">
-            <a class="nav-link active" aria-current="page" href="#">Apparel</a>
-          </li>
-          <li class="nav-item btn">
-            <a class="nav-link" href="#">Collection<i class="fa fa-caret-down dropbtn"></i></a>
-          </li>
-          <li class="nav-item btn">
-            <a class="nav-link" href="#">Accessories<i class="fa fa-caret-down dropbtn"></i></a>
-          </li>
-          <li class="nav-item btn">
-            <a class="nav-link" href="#">Artisan Group<i class="fa fa-caret-down dropbtn"></i></a>
-          </li>
-          <li class="nav-item btn">
-            <a class="nav-link" href="#">Blogs</a>
-          </li>
-          <li class="nav-item btn">
-            <a class="nav-link" href="#">Contact us</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <div class="jumbotron text-center">
-    <div class="intro">
-
-    </div>
-<script src="main.js"></script>
-</body>
+  </header>
+  </body>
+</html>
