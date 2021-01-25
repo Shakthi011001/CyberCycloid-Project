@@ -1,0 +1,29 @@
+.jumbotron {
+  background-image: url('background.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+}
+
+.bar1 {
+  color: #fff8e7;
+}
+
+.navbar {
+  padding: 1.5rem;
+  color: #fff8e7;
+}
+
+.nav-item {
+  margin: 0 1rem;
+  border: none;
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .jumbotron {
+    background-attachment: scroll;
+  }
+}
