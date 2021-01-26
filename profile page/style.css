@@ -1,0 +1,85 @@
+html, body {
+    width: 100%;
+    background-color: #128177;
+  }
+  
+  /*
+  .jumbotron {
+      background-image: url('bg.jpg');
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+  }
+  */
+
+   .profile {
+    width: 80%;
+    margin: 5% 10% 10%;
+    }
+   .journey {
+        background-color: #8b341f;
+        padding: 5% 10% 10%;
+        color: white;
+    }
+    .carousel-inner img {
+        height: 100%;
+        width: 100%;   
+    }
+    .products {
+        background-color: #cabdaf;
+        padding: 5% 10% 10%;
+    }
+  
+  .bar1 {
+      color: whitesmoke;
+      
+  }
+  
+  .navbar {
+      padding: 1.5rem;
+  }
+  .fa-user:hover{
+    color: #000000;
+  }
+  .fa-heart:hover{
+    color: #000000;
+  }
+  .fa-shopping-cart:hover{
+    color: #000000;
+  }
+  
+  @media screen and (max-width: 766px) {
+  
+          .nomobile {
+            display: none;
+          }
+  
+  }
+  @media screen and (max-width: 758px) {
+  .mobileview{
+  position: relative;
+  top: -10px;
+    }
+  }
+  @media screen and (max-width: 757px) {
+  .mobileview{
+  position: relative;
+  top: -10px;
+    }
+  }
+  @media screen and (max-width: 541px) {
+  .mobileview{
+  position: relative;
+  top: -10px;
+    }
+    .mobile{
+      position: relative;
+      top: -60px;
+    }
+    .center{
+      position: relative;
+      left: 70px;
+    }
+  }
+  
+
