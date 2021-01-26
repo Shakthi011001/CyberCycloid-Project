@@ -1,9 +1,9 @@
 html, body {
-    width: 100%;
-    background-color: #128177;
-  }
-  
-  /*
+  width: 100%;
+  background-color: #128177;
+}
+
+/*
   .jumbotron {
       background-image: url('bg.jpg');
       height: 100vh;
@@ -11,75 +11,111 @@ html, body {
       background-position: center;
   }
   */
+.button-container {
+  margin-top: 10px;
+  margin-left: 45%;
+  margin-right: 45%;
+}
 
-   .profile {
-    width: 80%;
-    margin: 5% 10% 10%;
-    }
-   .journey {
-        background-color: #8b341f;
-        padding: 5% 10% 10%;
-        color: white;
-    }
-    .carousel-inner img {
-        height: 100%;
-        width: 100%;   
-    }
-    .products {
-        background-color: #cabdaf;
-        padding: 5% 10% 10%;
-    }
-  
-  .bar1 {
-      color: whitesmoke;
-      
-  }
-  
-  .navbar {
-      padding: 1.5rem;
-  }
-  .fa-user:hover{
-    color: #000000;
-  }
-  .fa-heart:hover{
-    color: #000000;
-  }
-  .fa-shopping-cart:hover{
-    color: #000000;
-  }
-  
-  @media screen and (max-width: 766px) {
-  
-          .nomobile {
-            display: none;
-          }
-  
-  }
-  @media screen and (max-width: 758px) {
-  .mobileview{
+.view {
   position: relative;
-  top: -10px;
-    }
-  }
-  @media screen and (max-width: 757px) {
-  .mobileview{
-  position: relative;
-  top: -10px;
-    }
-  }
-  @media screen and (max-width: 541px) {
-  .mobileview{
-  position: relative;
-  top: -10px;
-    }
-    .mobile{
-      position: relative;
-      top: -60px;
-    }
-    .center{
-      position: relative;
-      left: 70px;
-    }
-  }
-  
+  align-self: center;
+  text-align: center;
+  border-radius: 20px;
+}
+.view:hover{
+  background-color: #000;
+  color: #fff;
+}
+.view:active{
+  box-shadow: 0 5px 5px rgba(0,0,0,1);
+	transform: translateY(4px);
+}
+}
 
+.profile {
+  width: 80%;
+  margin: 5% 10% 10%;
+}
+
+.journey {
+  background-color: #8b341f;
+  padding: 5% 10% 10%;
+  color: white;
+}
+
+.carousel-inner img {
+  height: 100%;
+  width: 100%;
+}
+
+.products {
+  background-color: #cabdaf;
+  padding: 5% 10% 10%;
+}
+
+.bar1 {
+  color: whitesmoke;
+}
+
+.navbar {
+  padding: 1.5rem;
+}
+
+.fa-user:hover {
+  color: #000000;
+}
+
+.fa-heart:hover {
+  color: #000000;
+}
+
+.fa-shopping-cart:hover {
+  color: #000000;
+}
+
+@media screen and (max-width: 766px) {
+  .nomobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 758px) {
+  .mobileview {
+    position: relative;
+    top: -10px;
+  }
+}
+
+@media screen and (max-width: 757px) {
+  .mobileview {
+    position: relative;
+    top: -10px;
+  }
+
+  .button-container {
+    margin-top: 10px;
+    margin-left: 35%;
+    margin-right: 35%;
+  }
+}
+
+@media screen and (max-width: 541px) {
+  .mobileview {
+    position: relative;
+    top: -10px;
+  }
+
+  .mobile {
+    position: relative;
+    top: -60px;
+  }
+
+  .center {
+    position: relative;
+    left: 70px;
+  }
+}
+.show-more{
+  display: none;
+}
