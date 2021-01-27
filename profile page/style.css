@@ -1,9 +1,9 @@
 html, body {
-    width: 100%;
-    background-color: #128177;
-  }
-  
-  /*
+  width: 100%;
+  background-color: #128177;
+}
+
+/*
   .jumbotron {
       background-image: url('bg.jpg');
       height: 100vh;
@@ -11,75 +11,170 @@ html, body {
       background-position: center;
   }
   */
+.button-container {
+  margin-top: 10px;
+  margin-left: 45%;
+  margin-right: 45%;
+}
 
-   .profile {
-    width: 80%;
-    margin: 5% 10% 10%;
-    }
-   .journey {
-        background-color: #8b341f;
-        padding: 5% 10% 10%;
-        color: white;
-    }
-    .carousel-inner img {
-        height: 100%;
-        width: 100%;   
-    }
-    .products {
-        background-color: #cabdaf;
-        padding: 5% 10% 10%;
-    }
-  
-  .bar1 {
-      color: whitesmoke;
-      
-  }
-  
-  .navbar {
-      padding: 1.5rem;
-  }
-  .fa-user:hover{
-    color: #000000;
-  }
-  .fa-heart:hover{
-    color: #000000;
-  }
-  .fa-shopping-cart:hover{
-    color: #000000;
-  }
-  
-  @media screen and (max-width: 766px) {
-  
-          .nomobile {
-            display: none;
-          }
-  
-  }
-  @media screen and (max-width: 758px) {
-  .mobileview{
+.view {
   position: relative;
-  top: -10px;
-    }
-  }
-  @media screen and (max-width: 757px) {
-  .mobileview{
-  position: relative;
-  top: -10px;
-    }
-  }
-  @media screen and (max-width: 541px) {
-  .mobileview{
-  position: relative;
-  top: -10px;
-    }
-    .mobile{
-      position: relative;
-      top: -60px;
-    }
-    .center{
-      position: relative;
-      left: 70px;
-    }
-  }
-  
+  align-self: center;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+.view:hover{
+  background-color: #000;
+  color: #fff;
+}
+.view:active{
+  box-shadow: 0 5px 5px rgba(0,0,0,1);
+	transform: translateY(4px);
+}
+}
 
+.profile {
+  width: 80%;
+  margin: 5% 10% 10%;
+}
+
+.journey {
+  background-color: #8b341f;
+  padding: 5% 10% 10%;
+  color: white;
+}
+
+.carousel-inner img {
+  height: 100%;
+  width: 100%;
+}
+
+.products {
+  background-color: #cabdaf;
+  padding: 5% 10% 10%;
+}
+
+.bar1 {
+  color: whitesmoke;
+}
+
+.navbar {
+  padding: 1.5rem;
+}
+
+.fa-user:hover {
+  color: #000000;
+}
+
+.fa-heart:hover {
+  color: #000000;
+}
+
+.fa-shopping-cart:hover {
+  color: #000000;
+}
+
+@media screen and (max-width: 766px) {
+  .nomobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 758px) {
+  .mobileview {
+    position: relative;
+    top: -10px;
+  }
+}
+
+@media screen and (max-width: 757px) {
+  .mobileview {
+    position: relative;
+    top: -10px;
+  }
+
+  .button-container {
+    margin-top: 10px;
+    margin-left: 35%;
+    margin-right: 35%;
+  }
+}
+
+@media screen and (max-width: 541px) {
+  .mobileview {
+    position: relative;
+    top: -10px;
+  }
+
+  .mobile {
+    position: relative;
+    top: -60px;
+  }
+
+  .center {
+    position: relative;
+    left: 70px;
+  }
+}
+.show-more{
+  display: none;
+}
+
+.review{
+    margin: 100px 0;
+}
+.rev{
+  text-align: center;
+  color: #f6f5f5;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+.test img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+.carousel-item{
+    text-align: center;
+    height: 430px;
+}
+.carousel-caption{
+    z-index: -1 !important;
+    background-color: #f6f5f5;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.carousel-caption h6{
+    margin-top: 55px;
+    font-weight: bold;
+    color: #000 !important;
+}
+.carousel-caption small{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    display: block;
+    color: #000 !important;
+}
+.carousel-caption p{
+    text-align: center;
+    padding: 0 50px;
+    font-size: 15px;
+    color: #000000 !important;
+}
+.carousel-indicators li{
+    background-color: #ffffff !important;
+}
+
+@media only screen and (max-width: 800px){
+    .carousel-item
+    {
+    height: 520px;
+    }
+    .carousel-caption{
+        margin: 0 10px 50px 10px;
+        left: 0 !important;
+        right: 0 !important;
+    }
+}
